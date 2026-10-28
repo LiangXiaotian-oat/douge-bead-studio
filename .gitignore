@@ -1,0 +1,10 @@
+node_modules/
+desktop/release*/
+desktop/temp/
+desktop/app/source.zip
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example

@@ -1,0 +1,7 @@
+{
+  "name": "douge-offline",
+  "version": "1.0.0",
+  "productName": "豆格拼豆工作台",
+  "main": "main.cjs",
+  "license": "AGPL-3.0-only"
+}

@@ -1,0 +1,25 @@
+name: Tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: |
+          node --check web/app.js
+          node --check desktop/app/main.cjs
+          node --check desktop/app/preload.cjs
+      - name: Run tests
+        run: npm test
+      - name: Prepare desktop renderer
+        run: python desktop/sync_web.py
+      - name: Check desktop renderer is in sync
+        run: git diff --exit-code -- desktop/app
