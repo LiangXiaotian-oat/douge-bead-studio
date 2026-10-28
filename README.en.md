@@ -2,7 +2,9 @@
 
 Turn pictures into editable perler-bead patterns, in a browser or an offline Windows application.
 
-[Try the web app](https://pindou-studio-creative.lushchime20.chatgpt.site/) · [Download for Windows](https://github.com/LiangXiaotian-oat/douge-bead-studio/releases/latest) · [中文](README.md)
+Created by [LiangXiaotian-oat](https://github.com/LiangXiaotian-oat) with development assistance from OpenAI Codex (AI).
+
+[Try the web app](https://liangxiaotian-oat.github.io/douge-bead-studio/) · [Alternative link](https://pindou-studio-creative.lushchime20.chatgpt.site/) · [Download for Windows](https://github.com/LiangXiaotian-oat/douge-bead-studio/releases/latest) · [中文](README.md)
 
 ![Workspace demo](docs/workspace.png)
 

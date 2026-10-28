@@ -24,7 +24,7 @@ with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
     for filename in source_members:z.write(app/filename,'desktop/app/'+filename)
     for filename in ['README.md','package.json','package-lock.json','build.py','sync_web.py']:z.write(root/filename,'desktop/'+filename)
     for filename in ['index.html','app.js','style.css','colors.json','LICENSE.txt']:z.write(root.parent/'web'/filename,'web/'+filename)
-    for filename in ['README.md','README.en.md','CONTRIBUTING.md','LICENSE','package.json','.gitignore']:
+    for filename in ['README.md','README.en.md','CONTRIBUTING.md','AUTHORS.md','LICENSE','package.json','.gitignore']:
         z.write(root.parent/filename,filename)
     for directory in ['docs','tests','.github']:
         for file in (root.parent/directory).rglob('*'):

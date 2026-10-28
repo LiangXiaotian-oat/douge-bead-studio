@@ -4,11 +4,13 @@
 
 **把喜欢的，拼出来。**  图片转换、拼豆图纸精修与材料统计，一站完成。
 
+作者：[LiangXiaotian-oat](https://github.com/LiangXiaotian-oat) 与 OpenAI Codex（AI 开发协作）
+
 [![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
 [![Tests](https://github.com/LiangXiaotian-oat/douge-bead-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/LiangXiaotian-oat/douge-bead-studio/actions/workflows/ci.yml)
 [![Windows 11](https://img.shields.io/badge/Windows%2011-x64-6c7dc7)](https://github.com/LiangXiaotian-oat/douge-bead-studio/releases/latest)
 
-[在线使用](https://pindou-studio-creative.lushchime20.chatgpt.site/) · [下载 Windows 离线版](https://github.com/LiangXiaotian-oat/douge-bead-studio/releases/latest) · [English](README.en.md) · [反馈问题](https://github.com/LiangXiaotian-oat/douge-bead-studio/issues)
+[在线使用](https://liangxiaotian-oat.github.io/douge-bead-studio/) · [备用入口](https://pindou-studio-creative.lushchime20.chatgpt.site/) · [下载 Windows 离线版](https://github.com/LiangXiaotian-oat/douge-bead-studio/releases/latest) · [English](README.en.md) · [反馈问题](https://github.com/LiangXiaotian-oat/douge-bead-studio/issues)
 
 ![豆格工作台示例](docs/workspace.png)
 
@@ -28,7 +30,7 @@
 
 ### 在线使用
 
-打开 [豆格在线工作台](https://pindou-studio-creative.lushchime20.chatgpt.site/)，上传图片 → 裁剪 → 选择尺寸和色卡 → 生成 → 精修和导出。
+打开 [豆格在线工作台](https://liangxiaotian-oat.github.io/douge-bead-studio/)（[备用入口](https://pindou-studio-creative.lushchime20.chatgpt.site/)），上传图片 → 裁剪 → 选择尺寸和色卡 → 生成 → 精修和导出。不同网络对域名的可达性可能不同；手机中若一个入口打不开，可尝试另一个或更换浏览器。
 
 ### Windows 11 离线版
 
